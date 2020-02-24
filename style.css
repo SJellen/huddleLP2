@@ -1,5 +1,107 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans: 400, 600, 700|Poppins: 700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:700&display=swap");
 body {
-  background-color: black;
+  font-family: "Open Sans";
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  padding-top: 5rem;
+}
+
+header img {
+  margin-left: 5rem;
+}
+
+header button {
+  background-color: white;
+  color: #ff52bf;
+  width: 130px;
+  height: 40px;
+  border: 1px solid #ff52bf;
+  border-radius: 25px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  float: right;
+  margin-right: 4rem;
+}
+
+.intro {
+  background-color: white;
+}
+
+.intro h1 {
+  margin-top: 14rem;
+  color: #00252e;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  width: 600px;
+  margin: 0 auto;
+  color: #00252e;
+  font-family: "Open Sans";
+  line-height: 1.75;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.intro img {
+  margin-left: 15%;
+  margin-bottom: 10rem;
+}
+
+.intro button {
+  margin-left: 36%;
+  background-color: #ff52bf;
+  color: white;
+  border: none;
+  width: 400px;
+  height: 78px;
+  border-radius: 50px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 6.75rem;
+}
+
+.top .topBox {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.top .topBox h1 {
+  color: #00252e;
+  font-size: 6rem;
+  margin-top: -1rem;
+}
+
+.top .topBox h3 {
+  font-size: 1.5rem;
+  margin-top: -3rem;
+  color: gray;
+  font-weight: 100;
+}
+
+.top #topBoxA {
+  margin-left: 17.5rem;
+}
+
+.top #topBoxB {
+  float: right;
+  margin-right: 16.5rem;
+}
+
+.top #topBoxB h3 {
+  margin-left: 3rem;
+}
+
+.top .curveMobile {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
