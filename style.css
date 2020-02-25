@@ -104,4 +104,224 @@ header button {
 .top .curveMobile {
   display: none;
 }
+
+.middle .middleBox img {
+  width: 525px;
+  height: auto;
+}
+
+.middle .middleBox h3 {
+  color: #00252e;
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+.middle .middleBox p {
+  margin-top: -1.25rem;
+  color: #00252e;
+  max-width: 520px;
+}
+
+.middle #midBox1 {
+  height: 500px;
+  background-color: #f5faff;
+  padding-top: 5rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.middle #midBox1 img {
+  float: right;
+  margin-right: 10.5%;
+}
+
+.middle #midBox1 h3 {
+  padding-top: 7rem;
+  margin-left: 9%;
+}
+
+.middle #midBox1 p {
+  margin-left: 9%;
+}
+
+.middle #midBox2 {
+  margin-top: 12rem;
+  margin-bottom: 10rem;
+}
+
+.middle #midBox2 img {
+  margin-left: 9.5%;
+}
+
+.middle #midBox2 h3 {
+  float: right;
+  padding-top: 6rem;
+  margin-right: 12%;
+}
+
+.middle #midBox2 p {
+  margin-top: -10rem;
+  float: right;
+  margin-right: 8.5%;
+}
+
+.middle #midBox3 {
+  height: 500px;
+  background-color: #f5faff;
+  padding-top: 5rem;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.middle #midBox3 img {
+  float: right;
+  margin-right: 10.5%;
+}
+
+.middle #midBox3 h3 {
+  padding-top: 7rem;
+  margin-left: 9%;
+}
+
+.middle #midBox3 p {
+  margin-left: 9%;
+}
+
+.curveMobile {
+  display: none;
+}
+
+.bottom h1 {
+  color: #00252e;
+  font-size: 2.5rem;
+  font-family: "Poppins";
+  margin-left: 25%;
+  margin-top: 10rem;
+}
+
+.bottom button {
+  margin-left: 35%;
+  background-color: #ff52bf;
+  color: white;
+  border: none;
+  width: 400px;
+  height: 78px;
+  border-radius: 50px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 11rem;
+}
+
+footer {
+  color: white;
+  margin-top: -.5rem;
+  padding-top: 150px;
+  height: 500px;
+  background-color: #00252e;
+}
+
+footer #footerBox1 {
+  width: 350px;
+  margin-left: 8.5%;
+  height: auto;
+}
+
+footer #footerBox1 img.logo {
+  margin-bottom: 1rem;
+}
+
+footer #footerBox1 img.contact {
+  margin-top: 1rem;
+}
+
+footer #footerBox1 h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+footer #footerBox1 span {
+  margin-left: 1rem;
+}
+
+footer #footerBox1 #social {
+  margin-top: 5rem;
+}
+
+footer #footerBox1 #social i.fab.fa-facebook-f.fa-lg {
+  background-color: white;
+  display: inline-block;
+  color: #00252e;
+  width: 15px;
+  height: 25px;
+  line-height: 1.25;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 2px;
+  border-radius: 2px;
+  margin-right: 1rem;
+}
+
+footer #footerBox1 #social i.fab.fa-twitter.fa-lg {
+  background-color: white;
+  display: inline-block;
+  color: #00252e;
+  width: 20px;
+  height: 20px;
+  line-height: 1.7;
+  padding: 1px 5px 10px 5px;
+  border-radius: 2px;
+}
+
+footer #footerBox1 #social i.fab.fa-instagram.fa-2x {
+  margin-right: 1rem;
+}
+
+footer #footerBox2 {
+  width: 600px;
+  float: right;
+  margin-top: -22rem;
+  margin-right: 2.75rem;
+}
+
+footer #footerBox2 h3 {
+  text-transform: uppercase;
+}
+
+footer #footerBox2 p {
+  max-width: 350px;
+}
+
+footer #footerBox2 input {
+  width: 318px;
+  border: none;
+  height: 46px;
+  border-radius: 5px;
+}
+
+footer #footerBox2 button {
+  margin-left: 2.25rem;
+  width: 160px;
+  height: 44px;
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+}
+
+.attribution {
+  margin-top: -2rem;
+  color: white;
+  opacity: .5;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: white;
+}
+
+.attribution a::link {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
