@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:700&display=swap");
 body {
   font-family: "Open Sans";
-  max-width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
+  padding: 0;
 }
 
 header {
@@ -223,8 +224,7 @@ img.curve {
 }
 
 #footerCurve {
-  max-width: 101%;
-  margin-left: -7px;
+  max-width: 100%;
 }
 
 img.curves {
@@ -480,7 +480,6 @@ footer #footerBox2 button {
     max-width: 100%;
   }
   .top .topContainer {
-    border: 1px solid red;
     width: 70%;
     height: 700px;
     display: -webkit-box;
@@ -543,7 +542,156 @@ footer #footerBox2 button {
     text-align: center;
   }
   .bottom h1 {
+    margin-left: 17%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    margin-top: -3rem;
+  }
+  header img {
+    width: 100px;
+  }
+  header button {
+    width: 75px;
+    font-size: .5rem;
+    height: 20px;
+  }
+  .top {
+    height: 600px;
+    margin-bottom: 0;
+  }
+  .intro {
+    margin-top: 10rem;
+  }
+  .intro p {
+    width: 70%;
+  }
+  .intro button {
+    margin-left: 30%;
+  }
+  .middle img.curves {
+    display: none;
+  }
+  .middle #midBox1 img.image {
+    margin-left: 22%;
+  }
+  .middle #midBox1 h3 {
     margin-left: 15%;
+  }
+  .middle #midBox1 p {
+    margin-left: 15%;
+  }
+  .middle #midBox2 img.image {
+    margin-left: 22%;
+  }
+  .middle #midBox2 h3 {
+    margin-left: 15%;
+  }
+  .middle #midBox2 p {
+    margin-left: 15%;
+  }
+  .middle #midBox3 img.image {
+    margin-left: 22%;
+  }
+  .middle #midBox3 h3 {
+    margin-left: 15%;
+  }
+  .middle #midBox3 p {
+    margin-left: 15%;
+  }
+  #topTopCurve {
+    display: block;
+    width: 100%;
+  }
+  #desktopTopCurve {
+    display: none;
+  }
+  #curveMobileMid {
+    display: block;
+    width: 100%;
+  }
+  #curveMobileTop {
+    display: block;
+    width: 100%;
+  }
+  #curveMobileBottom {
+    display: block;
+    width: 100%;
+  }
+  img.curve {
+    display: none;
+  }
+  .bottom h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-right: 10%;
+  }
+  .bottom button {
+    margin-left: 35%;
+  }
+  #footerCurve {
+    display: none;
+  }
+  #footerMobile {
+    display: block;
+    width: 101.75%;
+    height: auto;
+    margin-left: -8px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    width: 100vw;
+  }
+  header img {
+    margin-left: 10%;
+  }
+  header button {
+    margin-right: 10%;
+  }
+  .intro h1 {
+    font-size: 1.5rem;
+    width: 90%;
+  }
+  .intro p {
+    font-size: .8rem;
+    width: 90%;
+  }
+  .intro button {
+    margin-left: 27.5%;
+  }
+  .middle .middleBox {
+    width: 420px;
+  }
+  .middle .middleBox img.image {
+    margin-left: 10% !important;
+  }
+  .middle .middleBox p {
+    width: 80%;
+    margin-left: 5% !important;
+    font-size: 1rem;
+  }
+  .middle .middleBox h3 {
+    font-size: 1.5rem;
+    margin-left: 5% !important;
+    margin-bottom: 2rem;
+  }
+  .bottom h1 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .bottom button {
+    margin-left: 25%;
+  }
+  #footerMobile {
+    width: 420px;
+  }
+  footer {
+    width: 420px;
   }
 }
 /*# sourceMappingURL=style.css.map */
