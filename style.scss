@@ -10,7 +10,7 @@ $desktop: 1440px;
 
 body {
     font-family: 'Open Sans', ;
-    max-width: $desktop;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -55,7 +55,7 @@ header {
         margin-bottom: 3rem;
     }
     img {
-       margin-left: 15%;
+       margin-left: 14%;
        margin-bottom: 10rem;
        
     }
@@ -107,6 +107,9 @@ header {
 }
 
 .middle {
+    img.curve {
+        width: 100%;
+    }
     .middleBox {
         
         img {
@@ -215,8 +218,24 @@ header {
     }
 }
 
+img.curve {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#footerCurve {
+    max-width: 101%;
+    margin-left: -7px;
+    
+    
+}
+
+img.curves {
+    max-width: 100%;
+}
 
 footer {
+    
     color: white;
     margin-top: -.5rem;
     padding-top: 150px;;
@@ -284,6 +303,7 @@ footer {
         }
         p {
             max-width: 350px;
+            margin-bottom: 3rem;
         }
         input {
             width: 318px;
@@ -318,5 +338,283 @@ footer {
     a::link {
         color: white;
     }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    header {
+        margin-bottom: 5rem;
+    }
+    .intro {
+        h1 {
+            
+            width: 70%;
+            margin:  0 auto;
+        }
+        img {
+            width: 75%;
+            height: auto;
+        }
+    }
+
+    .top {
+        #topBoxA {
+            margin-left: 15%;
+           
+        }
+        #topBoxB {
+            margin-right: 15%;
+            
+        }
+    }
+    .middle {
+        .middleBox {
+            img {
+                width: 400px; 
+                height: auto;;
+            }
+            h3 {
+                width: 350px;
+            }
+            p {
+                width: 350px;
+            }
+        }
+        #midBox2 {
+            h3 {
+               margin-top: -4rem;
+            }
+            p {
+                margin-top: -7rem;
+                margin-right: 10rem;
+                
+            }
+
+        }
+
+    }
+
+    .bottom {
+        h1 {
+            margin-left: 20%;
+        }
+    }
+    footer {
+       
+        #footerBox2 {
+            margin-top: -21rem;
+            
+            width: 350px;
+            button {
+                float: right;
+                margin-top: 1rem;
+                margin-right: 2rem;
+            }
+        }
+    }
+   
+}
+
+@media only screen and (max-width: 992px) {
+
+    .intro {
+        h1 {
+            font-size: 1.75rem;
+            margin-bottom: 2rem;
+            
+        }
+        p {
+           
+            font-size: 1rem;
+        }
+        button {
+            width: 180px;
+            height: 40px;
+            font-size: .75rem;
+            margin-left: 40%;
+        }
+
+    }
+
+    .top {
+        .topBox {
+            h1 {
+                font-size: 4rem;
+                margin-bottom: 3rem;
+                margin-top: 2rem;
+            }
+            
+        }
+        #topBoxB {
+            margin-right: 5%;;
+            h3 {
+                margin-left: 0rem;
+            }
+        }
+    }
+
+    .middle {
+        .middleBox {
+            
+            img {
+                width: 300px;
+                height: auto;
+                
+            }
+            h3 {
+                margin-top: -4rem;;
+                font-size: 1.75rem;
+                
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+        #midBox2 {
+            p {
+                margin-top: -8rem;
+                margin-right: 5%;
+                
+            }
+            h3 {
+                margin-right: 5%;
+
+            }
+        }
+    }
+
+    .bottom {
+       
+        h1 {
+            font-size: 1.75rem;
+            margin-left: 25%;
+            
+        }
+        
+        button {
+            width: 180px;
+            height: 40px;
+            font-size: .75rem;
+            margin-left: 40%;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+         height: 700px;
+
+        
+         #footerBox1 {
+            margin: 0 auto;
+            padding-bottom: 5rem;
+         }
+         #footerBox2 {
+            margin: 0 auto;
+            padding-bottom: 5rem;
+        }
+         
+    }
+    .attribution {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        margin-top: -2rem;
+    }
+
+    .intro {
+        p {
+            width: 80%;
+        }
+    }
+
+    .top {
+        max-width: 100%;
+        .topContainer {
+            border: 1px solid red;
+            width: 70%;
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        .topBox {
+            
+            img {
+                height: auto;
+                margin-right: 85%;
+            }
+        }
+        #topBoxB {
+            margin-left: 15%;
+        }
+       
+        
+    }
+
+    .middle {
+            .middleBox {
+                display: flex;
+                flex-direction: column;
+                
+            }
+            #midBox1 {
+                img {
+                    margin-left: 30%;
+                }
+                p {
+                   margin-left: 25%;
+                   text-align: center;
+                }
+                h3 {
+                    margin-left: 25%;
+                    text-align: center;
+                }
+            }
+            #midBox3 {
+                img {
+                    margin-left: 30%;
+                }
+                p {
+                   margin-left: 25%;
+                   text-align: center;
+                }
+                h3 {
+                    margin-left: 25%;
+                    text-align: center;
+                }
+                
+            }
+            #midBox2 {
+               
+                img.image {
+                    margin-left: 30%;
+                }
+                p {
+                   margin-left: 25%;
+                   margin-top: -2%;
+                   text-align: center;
+                }
+                h3 {
+                    margin-left: 25%;
+                    text-align: center;
+                }
+            }  
+       
+    }
+
+    .bottom {
+        h1 { 
+            margin-left: 15%;   
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
 
 }

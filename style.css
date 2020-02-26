@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:700&display=swap");
 body {
   font-family: "Open Sans";
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ header button {
 }
 
 .intro img {
-  margin-left: 15%;
+  margin-left: 14%;
   margin-bottom: 10rem;
 }
 
@@ -103,6 +103,10 @@ header button {
 
 .top .curveMobile {
   display: none;
+}
+
+.middle img.curve {
+  width: 100%;
 }
 
 .middle .middleBox img {
@@ -213,6 +217,20 @@ header button {
   margin-bottom: 11rem;
 }
 
+img.curve {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#footerCurve {
+  max-width: 101%;
+  margin-left: -7px;
+}
+
+img.curves {
+  max-width: 100%;
+}
+
 footer {
   color: white;
   margin-top: -.5rem;
@@ -290,6 +308,7 @@ footer #footerBox2 h3 {
 
 footer #footerBox2 p {
   max-width: 350px;
+  margin-bottom: 3rem;
 }
 
 footer #footerBox2 input {
@@ -323,5 +342,208 @@ footer #footerBox2 button {
 
 .attribution a::link {
   color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    margin-bottom: 5rem;
+  }
+  .intro h1 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .intro img {
+    width: 75%;
+    height: auto;
+  }
+  .top #topBoxA {
+    margin-left: 15%;
+  }
+  .top #topBoxB {
+    margin-right: 15%;
+  }
+  .middle .middleBox img {
+    width: 400px;
+    height: auto;
+  }
+  .middle .middleBox h3 {
+    width: 350px;
+  }
+  .middle .middleBox p {
+    width: 350px;
+  }
+  .middle #midBox2 h3 {
+    margin-top: -4rem;
+  }
+  .middle #midBox2 p {
+    margin-top: -7rem;
+    margin-right: 10rem;
+  }
+  .bottom h1 {
+    margin-left: 20%;
+  }
+  footer #footerBox2 {
+    margin-top: -21rem;
+    width: 350px;
+  }
+  footer #footerBox2 button {
+    float: right;
+    margin-top: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .intro h1 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .intro p {
+    font-size: 1rem;
+  }
+  .intro button {
+    width: 180px;
+    height: 40px;
+    font-size: .75rem;
+    margin-left: 40%;
+  }
+  .top .topBox h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  .top #topBoxB {
+    margin-right: 5%;
+  }
+  .top #topBoxB h3 {
+    margin-left: 0rem;
+  }
+  .middle .middleBox img {
+    width: 300px;
+    height: auto;
+  }
+  .middle .middleBox h3 {
+    margin-top: -4rem;
+    font-size: 1.75rem;
+  }
+  .middle .middleBox p {
+    font-size: 1rem;
+  }
+  .middle #midBox2 p {
+    margin-top: -8rem;
+    margin-right: 5%;
+  }
+  .middle #midBox2 h3 {
+    margin-right: 5%;
+  }
+  .bottom h1 {
+    font-size: 1.75rem;
+    margin-left: 25%;
+  }
+  .bottom button {
+    width: 180px;
+    height: 40px;
+    font-size: .75rem;
+    margin-left: 40%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 700px;
+  }
+  footer #footerBox1 {
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+  footer #footerBox2 {
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+  .attribution {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    margin-top: -2rem;
+  }
+  .intro p {
+    width: 80%;
+  }
+  .top {
+    max-width: 100%;
+  }
+  .top .topContainer {
+    border: 1px solid red;
+    width: 70%;
+    height: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  .top .topBox img {
+    height: auto;
+    margin-right: 85%;
+  }
+  .top #topBoxB {
+    margin-left: 15%;
+  }
+  .middle .middleBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .middle #midBox1 img {
+    margin-left: 30%;
+  }
+  .middle #midBox1 p {
+    margin-left: 25%;
+    text-align: center;
+  }
+  .middle #midBox1 h3 {
+    margin-left: 25%;
+    text-align: center;
+  }
+  .middle #midBox3 img {
+    margin-left: 30%;
+  }
+  .middle #midBox3 p {
+    margin-left: 25%;
+    text-align: center;
+  }
+  .middle #midBox3 h3 {
+    margin-left: 25%;
+    text-align: center;
+  }
+  .middle #midBox2 img.image {
+    margin-left: 30%;
+  }
+  .middle #midBox2 p {
+    margin-left: 25%;
+    margin-top: -2%;
+    text-align: center;
+  }
+  .middle #midBox2 h3 {
+    margin-left: 25%;
+    text-align: center;
+  }
+  .bottom h1 {
+    margin-left: 15%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
