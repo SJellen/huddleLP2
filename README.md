@@ -1,4 +1,6 @@
 <h1 align="center">Welcome to Huddle LP 2 👋</h1>
+
+![screenshot](https://github.com/SJellen/huddleLP2/blob/master/ScreenShot.png)
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1-blue.svg?cacheSeconds=2592000" />
 </p>
